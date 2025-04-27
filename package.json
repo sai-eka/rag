@@ -4,16 +4,16 @@
     "description": "RAG server to answer coding questions based on your repos",
     "main": "rag-server.ts",
     "scripts": {
-      "scan": "ts-node repo-scanner.ts",
-      "serve": "ts-node rag-server.ts"
+        "scan": "ts-node repo-scanner.ts",
+        "serve": "ts-node rag-server.ts"
     },
     "dependencies": {
-      "@xenova/transformers": "^2.7.0",
-      "express": "^4.18.2"
+        "@xenova/transformers": "^2.7.0",
+        "express": "^4.21.2"
     },
     "devDependencies": {
-      "ts-node": "^10.9.1",
-      "typescript": "^5.2.2"
+        "@types/express": "^5.0.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
     }
-  }
-  
+}
